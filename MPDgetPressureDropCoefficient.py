@@ -34,5 +34,5 @@ def MPDgetPressureDropCoefficient(fluidStateVector, tubeVector, reynoldsNumber, 
     print("MPDgetPressureDrop Ran Successfully!")
     return([pressureDropCoefficientMajor, pressureDropCoefficientMinor])
     
-test = MPDgetPressureDropCoefficient(fluidStateVector1, tubeVector2, 300000, 500)
+test = MPDgetPressureDropCoefficient(fluidStateVector1, tubeVector2, 300000, 0)
 print(test)
